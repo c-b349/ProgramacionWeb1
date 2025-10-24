@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Ball Information</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0f0f0f, #1c1c1c);
+      color: white;
+    }
+
+    header {
+      background-color: #f39c12;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    .section {
+      margin-top: 120px;
+    }
+
+    .personaje {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .personaje img {
+      width: 250px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .personaje img:hover {
+      transform: scale(1.05);
+    }
+
+    .personaje h2 {
+      color: #f39c12;
+    }
+
+    strong {
+      color: #f39c12;
+    }
+
+    .lista {
+      list-style-type: "• ";
+      margin: 8px 0 8px 20px;
+      column-count: 2;
+      column-gap: 40px;
+    }
+
+    .lista li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #888;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .lista {
+        column-count: 1;
+      }
+      .personaje img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dragon Ball Information</h1>
+  </header>
+
+  <div class="container section">
+
+    <!-- Goku -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Goku</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Kamehameha</li><li>Kaioken</li><li>Genkidama</li><li>Ultra Instinto</li><li>Shunkan Idō</li>
+          <li>Zanzōken</li><li>Bukujutsu</li><li>Taiyōken</li><li>Fusión</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Kaioken</li><li>Oozaru</li><li>Super Saiyan 1</li><li>Super Saiyan 2</li>
+          <li>Super Saiyan 3</li><li>Super Saiyan 4</li><li>Super Saiyan God</li>
+          <li>Super Saiyan Blue</li><li>Super Saiyan Blue Kaioken</li>
+          <li>Ultra Instinto Sign</li><li>Ultra Instinto Perfecto (MUI)</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="goku.jpg" alt="Goku" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Vegeta -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Vegeta</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Galick Gun</li><li>Final Flash</li><li>Big Bang Attack</li><li>Final Explosion</li><li>Ki Blast</li>
+          <li>Final Shine Attack</li><li>Big Bang Kamehameha</li><li>Bakuretsu Kamehameha</li>
+          <li>Final Cannon</li><li>Fusion</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Oozaru</li><li>Super Saiyan</li><li>Super Saiyan 2</li>
+          <li>Super Saiyan God</li><li>Super Saiyan 3</li>
+          <li>Super Saiyan Blue</li><li>Ultra Ego</li><li>Super Saiyan 4</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="vegeta.jpg" alt="Vegeta" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Gohan -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Gohan</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Masenko</li><li>Kamehameha</li><li>Explosión de Poder</li><li>Super Masenko</li>
+          <li>Masenko Final</li><li>Zanzōken</li><li>Bukujutsu</li><li>Taiyōken</li>
+          <li>Rage Kamehameha</li><li>Masenko Potenciado</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Oozaru</li><li>Super Saiyan</li><li>Super Saiyan 2</li>
+          <li>Ultimate Gohan / Mystic</li><li>Beast Gohan</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="gohan.jpg" alt="Gohan" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Trunks -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Trunks</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Burning Attack</li><li>Shining Sword Attack</li><li>Masenko</li>
+          <li>Final Flash</li><li>Galick Gun</li><li>Ki Blast</li>
+          <li>Zanzōken</li><li>Super Masenko</li><li>Sword Slash</li><li>Energy Sword</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Super Saiyan</li><li>Super Saiyan Rage</li><li>Super Saiyan 2</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="trunks.jpeg" alt="Trunks" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Piccolo -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Piccolo</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Makankosappo</li><li>Rayo Explosivo</li><li>Multiplicación</li><li>Regeneración</li>
+          <li>Ki Blast</li><li>Hellzone Grenade</li><li>Light Grenade</li><li>Masenko</li>
+          <li>Explosive Wave</li><li>Energy Barrier</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Fusión con Kami</li><li>Fusión con Nail</li><li>Orange Piccolo</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="piccolo.jpg" alt="Piccolo" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Freezer -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Freezer</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Death Beam</li><li>Death Ball</li><li>Supernova</li><li>Ki Blast</li>
+          <li>Nova Strike</li><li>Final Flash</li><li>Tail Attack</li><li>Teleportation</li>
+          <li>Planet Destruction</li><li>Golden Death Beam</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Forma Base</li><li>Primera Forma</li><li>Segunda Forma</li>
+          <li>Tercera Forma</li><li>Forma Final</li><li>Golden Freezer</li><li>Black Freezer</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="freezer.jpg" alt="Freezer" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Majin Buu -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Majin Buu</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Absorción</li><li>Kamehameha</li><li>Regeneración</li><li>Chocolate Beam</li>
+          <li>Planet Burst</li><li>Ki Blast</li><li>Explosión de Poder</li>
+          <li>Elastic Punch</li><li>Candy Beam</li><li>Humanization</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Buu Gordo</li><li>Buu Malo</li><li>Super Buu</li>
+          <li>Kid Buu</li><li>Buuhan</li><li>Buutenks</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="majinbuu.jpg" alt="Majin Buu" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Broly -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Broly</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Eraser Cannon</li><li>Gigantic Breath</li><li>Blaster Meteor</li>
+          <li>Ki Blast</li><li>Omega Blaster</li><li>Gigantic Roar</li>
+          <li>Dragon Hammer</li><li>Energy Wave</li><li>Wrathful Charge</li><li>Legendary Supernova</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base</li><li>Super Saiyan</li><li>Super Saiyan Legendario</li><li>Super Saiyan Full Power</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="broly.jpg" alt="Broly" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Bills -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Bills</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Hakai</li><li>Esfera de destrucción</li><li>Ki Blast</li>
+          <li>Energy Sphere</li><li>Destruction Wave</li><li>Warp Strike</li>
+          <li>Shockwave</li><li>God Punch</li><li>God Energy Beam</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Base (no posee otras transformaciones, es un Dios de la Destrucción)</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="bills.jpg" alt="Bills" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- Cell -->
+    <div class="personaje row align-items-center">
+      <div class="col-md-9">
+        <h2>Cell</h2>
+        <p><strong>Técnicas:</strong></p>
+        <ul class="lista">
+          <li>Kamehameha</li><li>Absorción</li><li>Regeneración</li><li>Ki Blast</li>
+          <li>Solar Kamehameha</li><li>Barrier</li><li>Solar Flare</li>
+          <li>Tail Attack</li><li>Explosive Wave</li><li>Energy Ball</li>
+        </ul>
+        <p><strong>Transformaciones:</strong></p>
+        <ul class="lista">
+          <li>Imperfecto</li><li>Semi Perfecto</li><li>Perfecto</li><li>Super Perfecto</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="cell.jpg" alt="Cell" class="img-fluid">
+      </div>
+    </div>
+
+  </div>
+
+  
+</body>
+</html>
